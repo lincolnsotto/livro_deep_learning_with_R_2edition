@@ -29,3 +29,14 @@ mnist
 digit <- mnist$train$x[1,,]
 plot(as.raster(digit, max = 255))
 
+
+
+
+
+
+
+use_condaenv("tf-m1", required = TRUE)
+use_condaenv("r-reticulate", required = TRUE)
+
+
+use_condaenv("tf-m1", required = TRUE)
